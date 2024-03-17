@@ -61,18 +61,18 @@ const Login = () => {
                 </div>
                 <div className='container text-center mt-5'>
                     <div className='d-flex justify-content-center align-items-center'>
-                        <button onClick={googleClick} className='btn d-flex justify-content-center align-items-center' style={{
+                        <button onClick={googleClick} className='btn d-flex justify-content-center align-items-center login-btn' style={{
                             backgroundColor: 'white',
                             text: 'black',
-                            width: '72%'
+                            width: '100%'
                         }}>
-                            <div style={{ width: '10%' }}>
+                            <div className='google-img' style={{ width: '10%' }}>
                                 <img src='https://www.freepnglogos.com/uploads/google-logo-png/google-logo-png-webinar-optimizing-for-success-google-business-webinar-13.png' style={{ width: '100%' }} />
                             </div>
-                            <div>
-                                <h2 style={{
-                                    fontWeight: 'bold',
-                                    color: 'red '
+                            <div >
+                                <h2 className='log-text' style={{
+                                  color: 'black',
+                                  fontSize:'1.5rem'
                                 }}>Login with google</h2>
                             </div>
                         </button>
